@@ -1,0 +1,174 @@
+// Revista nº 1 · Hola, Hugo.
+window.REVISTAS=window.REVISTAS||[];
+window.REVISTAS.push({
+  num:1,
+  date:"2026-11-06",
+  title:"Hola, Hugo.",
+  color:"#1e2f36",
+  html:`
+<!-- 1 PORTADA -->
+<div class="leaf"><div class="pg cover">
+<div class="top"><span>NÚMERO 1 · NOVIEMBRE 2026</span><span>EDICIÓN ESPECIAL</span></div>
+<h1>Hola,<br>Hugo.</h1><em>La revista de una semana sin hablarnos.</em>
+<div class="lab">EN ESTE NÚMERO</div>
+<ul><li>Una semana sin médicos</li><li>La matrona y el lunes equivocado</li><li>Donibane Garazi y las gallinas intrusas</li><li>Cotilleos: tres veces tía segundas</li><li>Sopa de letras y crucigrama</li><li>¡Y mucho más!</li></ul>
+<svg width="150" height="60" viewBox="0 0 300 70"><svg x="0" y="8" width="110" height="55" viewBox="0 0 120 60" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 46c0-20 26-34 54-32 30 2 48 14 46 30-2 8-20 10-50 10S10 54 10 46z"/><path d="M64 14c0-6 2-8 4-10"/></g></svg><svg x="120" y="0" width="170" height="66" viewBox="0 0 180 70" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-12 90 35)"><rect x="8" y="22" width="164" height="26" rx="13"/><path d="M48 27l7 16M78 27l7 16M108 27l7 16M138 27l7 16"/></g></g></svg></svg>
+</div></div>
+
+<!-- 2 SALUDO -->
+<div class="leaf"><div class="pg">
+<p class="k">Saludo de la directora</p><h2>Bonjour, Hugo</h2>
+<p>Querido Hugo: Gracias por el periódico de hoy. Ha sido divertido y me ha gustado mucho el detalle. Para compensártelo, te he hecho este número especial con todo lo que me ha pasado a mí. Y perdona por las posibles faltas ortográficas que pueda cometer, es tarde y soy disléxica. Primera noticia: <b>esta semana no he tenido médicos</b>. Cero citas, cero llamadas. Un récord histórico que merece una baguette de celebración.</p>
+<p>Para ubicar a un posible Hugo futuro que no se acuerda de qué estoy hablando: Ando con cambios hormonales y con varias cosas de una analítica que salió medio mal que me tienen que mirar, porque me provocan cambios de humor, cansancio, bajones de ánimo y apatía, entre otras cosas. Así que si recuerdas que en algún momento estaba rara contigo, no era yo, era mi analítica. Yo soy maravillosa.</p>
+<svg class="ill" width="150" height="62" viewBox="0 0 300 70"><svg x="0" y="8" width="110" height="55" viewBox="0 0 120 60" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M10 46c0-20 26-34 54-32 30 2 48 14 46 30-2 8-20 10-50 10S10 54 10 46z"/><path d="M64 14c0-6 2-8 4-10"/></g></svg><svg x="120" y="0" width="170" height="66" viewBox="0 0 180 70" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-12 90 35)"><rect x="8" y="22" width="164" height="26" rx="13"/><path d="M48 27l7 16M78 27l7 16M108 27l7 16M138 27l7 16"/></g></g></svg></svg>
+<p class="small" style="text-align:center">Desliza, toca los bordes o usa las flechas para pasar de página.</p>
+<div class="num">2</div></div></div>
+
+<!-- 3 SALUD -->
+<div class="leaf"><div class="pg">
+<p class="k">Salud · Sucesos</p><h2>El caso de la matrona fantasma</h2><p class="sub">La cita era otro lunes</p>
+<p>El lunes pasado, esta redactora pensó con total seguridad que tenía una cita con la matrona. Había confianza, había plan, había hasta ganas. Pero resulta que <b>la cita no era ese lunes, sino el que viene: el 9 de noviembre de 2026</b>. Fuentes cercanas a Leire confirman que la agenda llevaba razón, ella no.</p>
+<h3>Los riñones también esperan</h3>
+<p>La <b>ecografía de los riñones</b> sigue en modo "ya te llamaremos": aún no me han llamado (no eres al único que le hacen ghosting). Mi padre tiene una enfermedad genética que provoca quistes en los riñones (poliquistosis renal), así que me toca hacerme pruebas por precaución. Es un control, no una alarma. Pero que me llamen ya, por favor...</p>
+<h3>Parte médico de Hugo</h3>
+<p>Mientras yo colecciono analíticas, Hugo ha coleccionado un <b>esguince de tobillo</b>. Dos pacientes, un sistema sanitario desbordado. La redacción le desea pronta recuperación y le recuerda que, aunque esté medio cojo (sobretodo porque decide participar en partidos de balonmano sin estar del todo recuperado), la deuda del helado sigue en pie (nunca mejor dicho jeje).</p>
+<div class="ad"><p class="k">Publicidad</p><strong>Médicos Ausentes S.L.</strong>¿Le cansa que le llamen para citas? Con nuestro plan "Semana sin médicos", disfrute de siete días sin batas blancas.<br><small>*La matrona no se hace responsable de lunes confundidos.</small></div>
+<div class="num">3</div></div></div>
+
+<!-- 4 EDITORIAL -->
+<div class="leaf"><div class="pg">
+<p class="k">Opinión · Editorial</p><h2>Ya maravillosa, y aún mejor curada</h2><p class="sub">Un análisis científico-sentimental</p>
+<p>Los expertos coinciden: Leire Hernández ya es una persona maravillosa. Lo dicen los hechos, lo dice su familia y, sobre todo, lo dice ella misma y la ciencia.</p>
+<p>Ahora bien, ¿qué pasará cuando los médicos terminen de arreglar sus hormonas, analíticas y riñones? Respuesta del comité: <b>será aún mejor</b>. Hablamos de una versión 2.0 con más energía, mejor humor y menos cansancio. Si ahora ya es maravillosa, curada será un fenómeno de nivel nacional, una fuerza de la naturaleza.</p>
+<blockquote>"Todo marcha según lo previsto: maravillosa hoy, más maravillosa mañana."<span>Comité de Evaluación de Leire (un único miembro: Leire)</span></blockquote>
+<h3>Horóscopo de la semana</h3>
+<div class="box"><b>Leire</b>Los astros te han preparado varios obstáCulos. Es posible que tus amados progenitores te hagan una broma relacionada con las elecciones del 29/11/2026. Solo te queda ser fuerte.</div>
+<div class="box"><b>Hugo</b>Alguien muy cercana está pensando en ti. Tus astros recomiendan responder rápido, y en francés si hace falta (ya sabes que a cierta persona esto le pone tontorrona).</div>
+<div class="box"><b>Las gallinas</b>Hoy será un buen día para entrar por las ventanas de los baserris de Donibane Garazi.</div>
+<div class="num">4</div></div></div>
+
+<!-- 5 ESCAPADA -->
+<div class="leaf"><div class="pg">
+<p class="k">Escapada rural</p><h2>Donibane Garazi: tres días de casa rural</h2><p class="sub">De viernes a domingo, Halloween incluido</p>
+<svg class="ill" width="260" height="90" viewBox="0 0 240 90"><svg x="0" y="0" width="240" height="90" viewBox="0 0 240 90" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M8 84h224"/><path d="M16 84V50l22-18 22 18v34M74 84V42l26-22 26 22v42M140 84V54l20-16 20 16v30M186 84V60l18-14 18 14v24"/><path d="M92 84V64h16v20M24 62h8v10h-8z"/></g></svg></svg>
+<p>¿Cansado de la ciudad? ¿Quieres paz, naturaleza y un pueblo precioso? Entonces apúntate a nuestra escapada a una casa rural en <b>Donibane Garazi</b>, perfecto para grupos de amigos de la universidad. Pros: Está ubicado en un pueblo realmente bonito y encantador, con vistas increibles. Contra: Está en Francia... Posibles planes a realizar en nuestras instalaciones:</p>
+<div class="box"><b>Juegos de mesa</b>Bingo musical (Metrika vetada), Trivial, Polilla Tramposa y ese juego de gominolas buenas y malas en el que hay que adivinar a qué saben. Resultado: risas, trampas y paladares confusos.</div>
+<div class="box"><b>Overcooked</b>En la Nintendo Switch. Se grita, se cocina fatal, se pierde la amistad durante dos minutos y se recupera en el siguiente nivel.</div>
+<div class="box"><b>Paseo por el pueblo</b>Camina por un pueblo realmente bonito y recorre las murallas del castillo. Descubre ponis con lunas en la frente (ESTO NO TE LO HE ENSEÑADO, VIMOS UN PONI CON UNA LUNA PERFECTA EN LA FRENTE).</div>
+<div class="num">5</div></div></div>
+
+<!-- 6 HALLOWEEN Y GALLINAS -->
+<div class="leaf"><div class="pg">
+<p class="k">Halloween · Fauna local</p><h2>Tazas de miedo y gallinas sin permiso</h2><p class="sub">Dos actividades, un solo caos. Memorias de los últimos inquilinos:</p>
+<svg class="ill" width="110" height="100" viewBox="0 0 120 110"><svg x="0" y="0" width="120" height="110" viewBox="0 0 120 110" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 24h64v50c0 14-10 24-32 24S20 88 20 74z"/><path d="M84 38h12c10 0 10 26 0 26H84"/><path d="M42 48l6 8h-12zM68 48l6 8h-12z"/><path d="M38 72c8 8 26 8 34 0"/><path d="M48 24c0-8 4-12 8-14"/></g></svg></svg>
+<p>"Fuimos a pasar Halloween allí y pintamos <b>tazas de Halloween</b>, vimos seríes macabras de miedo e hizimos pizzas (con intención de que fuesen con forma de fantasma, pero se nos hizo tarde y fueron pizzas redondas nomales). Comimos gominolas y chocolatinas con formas de monstruos."</p>
+<h3>El servicio estrella: gallinas a domicilio</h3>
+<svg class="ill" width="140" height="121" viewBox="0 0 120 104"><svg x="0" y="0" width="120" height="104" viewBox="0 0 120 104" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 58C24 40 40 30 62 32C80 34 92 46 92 62C92 80 76 88 56 88C36 88 24 78 24 58Z"/><path d="M27 52C14 46 10 34 14 26M31 47C23 40 23 30 29 24"/><path d="M78 37C84 31 86 26 88 24"/><circle cx="97" cy="22" r="10"/><path d="M90 13q2-8 6-3q3-7 7 0"/><path d="M106 20l10 4-10 4z"/><path d="M103 32q1 9-4 7"/><path d="M44 58C52 50 68 52 72 62C66 71 50 71 44 58Z"/><path d="M52 88v11M52 99h-7M52 99h7M68 88v11M68 99h-7M68 99h7"/></g><circle cx="99" cy="20" r="2.4" fill="currentColor"/></svg></svg>
+<p>Esta casa rural ofrece algo que no encontrarás en ningún otro sitio: <b>las gallinas del vecino</b>. Se escapan constantemente y se cuelan en la casa por cualquier hueco que ven: ventanas, puertas, rendijas imposibles. Montan un jaleo tremendo y muchas veces será dificilísimo sacarlas. Cinco estrellas en animación de la experiencia, una en control de animales.</p>
+<blockquote>«Cocoricó.»<span>Una gallina, entrando por la ventana por tercera vez</span></blockquote>
+<div class="ad"><p class="k">Publicidad</p><strong>Gallinas Rural Security</strong>"Si no las puedes sacar, únete a ellas." Garantía: no entrarán por la puerta, entrarán por la ventana.</div>
+<div class="num">6</div></div></div>
+
+<!-- 7 COTILLEOS -->
+<div class="leaf"><div class="pg">
+<p class="k">Cotilleos · Lo que se dice en familia</p><h2>La familia crece: ha llegado Valentina</h2><p class="sub">Y viene otro bebé de camino</p>
+<svg class="ill" width="100" height="90" viewBox="0 0 100 90"><svg x="0" y="0" width="100" height="90" viewBox="0 0 100 90" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="48" r="28"/><path d="M24 40C28 18 72 18 76 40"/><path d="M50 20q-2-10 6-9"/><path d="M38 52q3 3 6 0M56 52q3 3 6 0"/><path d="M44 62q6 5 12 0"/></g><circle cx="35" cy="58" r="3" fill="currentColor" opacity=".25"/><circle cx="65" cy="58" r="3" fill="currentColor" opacity=".25"/></svg></svg>
+<p><b>Mi primo Jon</b> ha tenido otra hija, <b>Valentina</b>. Con esto, esta redactora se convierte en <b>tía segunda por segunda vez</b>. Cargo asumido con orgullo, dignidad y mucha capacidad de consentir en todo lo que quiera a la nueva integrante de la familia.</p>
+<h3>Y la próxima: tía segunda por tercera vez</h3>
+<p>Mi primo <b>Aitor</b> (hermano de Jon) se casó con una chica latinoamericana de mi edad por tema de papeles, pero al año lo dejaron y se separaron: no eran compatibles y mi primo no estaba listo para llevar una vida de responsabilidades a pesar de tener casi 40 años. Acabaron un poco mal, pero aun así siguieron viéndose y liándose, y ella acabó embarazada. Como la cosa no acabó muy bien entre ellos, decidieron abortar y seguir cada uno por su lado. Pero después de hablar con su familia, <b>ella decidió que no quería abortar</b>. Aitor se enfadó, pero lo aceptó, porque la decisión es de ella. Ahora está acojonado pero feliz. El bebé nacerá <b>más o menos en marzo-abril</b>.</p>
+<p>Detalle para cotillas profesionales: la diferencia de edad entre ellos es bastante grande, <b>ella tiene mi edad: 25 años y sin trabajo</b>. Seguiremos informando.</p>
+<div class="num">7</div></div></div>
+
+<!-- 8 VISITAS Y TRABAJO -->
+<div class="leaf"><div class="pg">
+<p class="k">Sociedad</p><h2>Visitas oficiales de la semana</h2><p class="sub">Abuelos, tía de Zaragoza y cotilleo a mansalva</p>
+<p>Fui a ver a mi <b>abuelo</b> y a mi <b>tía</b>, que ha venido desde Zaragoza. También visité a mi <b>otra abuela, por parte de madre</b>, a la que hacía muchísimo que no veía. En todas las visitas hubo cotilleo: hablamos de <b>Valentina, la nueva hija de Jon</b>, y del <b>embarazo de Aitor</b>, su hermano. Hablamos de la novia misteriosa de Urko y de la casa que se han comprado Ane y su novio, y de lo gordo y vago que se ha puesto Cachopo, el perro ciego de 9 años de mi abuela. #LaTelenovelaDeMiFamilia</p>
+<h3>Economía y empleo</h3>
+<p>La empresa donde trabajo está perdiendo dinero. A mí me toca la <b>renovación en enero</b> y no sé si me renovarán precisamente por las pérdidas económicas. Así que voy a empezar en breve a buscar trabajo. Estoy abierta a todo: ofertas, contactos, consejos y cualquier cosa que no implique perder más dinero que mi empresa.</p>
+<div class="box"><b>Plan A</b>Que me renueven. Ojalá.</div>
+<div class="box"><b>Plan B</b>Buscar trabajo con entusiasmo.</div>
+<div class="box"><b>Plan C</b>Mudarme a Irun y trabajar de "amiga de Hugo" y que él me pague mis caprichos.</div>
+<div class="box"><b>Plan D</b>Robar un banco.</div>
+<div class="num">8</div></div></div>
+
+<!-- HISTORIA DE UNA AMISTAD -->
+<div class="leaf"><div class="pg">
+<p class="k">Reportaje científico · Historia de una bronca</p><h2>Hugo VS Leire</h2><p class="sub">Dos desconocidos, una app, unas fotos raras y un expediente que la ciencia ya ha cerrado</p>
+
+<h3>El principio de todo</h3>
+<p>Los protagonistas de este reportaje se conocieron por <b>Hinge</b>, la app de citas. Y a pesar de que <b>las fotos de Leire fuesen raras</b>, hicieron match.</p>
+<p>La intención inicial era clara: <b>ver si éran compatibles como pareja</b>. Dos personas, varias citas, poco respeto y mucha curiosidad. Pero la vida, que tiene un sentido del humor bastante discutible, tenía otros planes.</p>
+
+<h3>La enfermedad casi terminal de Leire</h3>
+<p>Ahora mismo <b>Leire no está ready para tener nada serio</b>. Por temas médicos, y no por falta de ganas, no puede darle una buena relación a nadie, y prefiere decirlo claro antes que hacerlo mal. Es una decisión responsable, madura y, como todo lo que ella hace, ejemplar.</p>
+<p>Lo bonito es que de aquello salió algo mejor de lo que buscaban: <b>una amistad con posibilidad de romance futuro</b>. O eso parecía...</p>
+
+<h3>La gran bronca</h3>
+<p>Hubo una bronca <b>muuuuuuy grande</b>. Tan grande que casi nuestros protagonistas dejan de ser amigos. Y el motivo era justo ese: los <b>cambios de humor de Leire</b> estaban provocando roces entre ellos. Así que, con toda la calma y el cariño del mundo, <b>Leire le pidió distancia a Hugo</b>. Una petición sencilla, clara y razonable.</p>
+<p>Y entonces entró en escena la <b>capacidad lectora y comprensora de Hugo</b>, equivalente, según los expertos, a la de un crío de cuatro años. Donde Leire escribió "necesito un poco de espacio, es una despedida", él leyó, aparentemente, "Adiós para siempre, te odio". Todo empezó a <b>escalar sin ningún sentido</b>, hasta el punto de que casi se perdió la amistad. La redacción ha investigado a fondo y concluye, con total imparcialidad, que <b>la culpa fue de Hugo</b>. Caso cerrado.</p>
+
+<h3>La gestión de Leire</h3>
+<p>Cabe destacar que Leire gestionó toda la situación <b>de forma maravillosa</b>. Paciencia infinita, comunicación impecable y una elegancia que ya quisieran los diplomáticos. Esto no es una opinión: es un hecho.</p>
+
+<h3>Las pruebas</h3>
+<p>La <b>culpa de Hugo</b> y la <b>inocencia de Leire</b> han quedado demostradas mediante <b>experimentos científicos y pruebas psicológicas</b> relevantes en el mundo científico realizados bajo condiciones estrictamente controladas (es decir, yo, con un móvil y teniendo razón).</p>
+<blockquote>"Los resultados son concluyentes: Leire, inocente; Hugo, no tanto."<span>Comité científico de la redacción, sin posibilidad de apelación</span></blockquote>
+
+<h3>El incidente de la pizza</h3>
+<p>Y aquí viene el hallazgo clave de la investigación. A Leire y a Hugo se les cayó una pizza al suelo del coche de Hugo. Y aún así, se la comieron. Esa pizza del suelo dejó <b>bacterias que solo Hugo mantiene</b>. ¿Por qué solo él? Porque Leire tiene <b>deficiencia de leucocitos</b>, y eso, lejos de ser un problema, mejora sus defensas: a pesar de tener pocos, <b>esos pocos leucocitos son casi ninjas</b> y resultan <b>invencibles</b>. Las bacterias entraron en los dos cuerpos, pero solo uno de ellos tenía un ejército de élite.</p>
+<blockquote>Leire: "No repetiría. Sin más comentarios..."</blockquote>
+<blockquote>Hugo: "Cinco segundos y se come. Reglamento oficial, artículo único. ¡Ñam!"</blockquote>
+
+
+<h3>El factor Metrika</h3>
+<p>Pero las bacterias no actuaron solas. Los científicos creen que se combinaron con <b>los efectos neurológicos que provoca Metrika</b>, una exposición prolongada que, sumada a la pizza, produjo en Hugo el cóctel perfecto: se volvió <b>orgulloso, egoísta y narcisista</b>. Diagnóstico provisional: pizza + Metrika = Hugo insoportable.</p>
+
+<h3>Estado actual de la amistad</h3>
+<p>Leire sigue con Hugo a la espera de algo mejor. Obviamente es broma. Obviamente...</p>
+<p>La amistad sobrevivió, las bacterias siguen en estudio y los leucocitos ninja continúan de guardia.</p>
+<div class="num">0</div></div></div>
+
+<!-- DEUDAS Y MUSICA -->
+<div class="leaf"><div class="pg">
+<p class="k">Contabilidad · Cultura</p><h2>Lo que Hugo debe a Leire</h2><p class="sub">Balance provisional de pendientes</p>
+<div class="box"><b>Un helado</b>Pendiente de entrega.</div>
+<div class="box"><b>Una cita para ver La Bella y la Bestia</b>Con palomitas, sin excusas y con ganas de escuchar a Leire cantar.</div>
+<div class="box"><b>Una pedida de matrimonio</b>Con anillo.</div>
+<div class="box"><b>Una casa de millón y medio de euros</b>No vale pagar con vales de VALES MORALES S.L.</div>
+<div class="ad"><p class="k">Publicidad</p><strong>Inmobiliaria Hugo &amp; Co.</strong>Casas de un millón y medio. Entrada: un anillo. Pago: en euros.<br><small>*Casas solo para Leire. Cualquier otra persona, que se busque la vida.</small></div>
+<div class="num">0</div></div></div>
+
+<!-- SOPA -->
+<div class="leaf"><div class="pg">
+<p class="k">Pasatiempos · 1</p><h2>Sopa de letras</h2><p class="sub">Toca las letras para marcarlas. Las palabras pueden ir en cualquier dirección.</p>
+<div class="soup" data-puzzle="soup" data-size="10" data-words='[["HUGO",0,0,0,1],["PIZZA",0,9,1,0],["METRIKA",5,2,0,1],["HINGE",1,0,1,0],["BODA",7,0,0,1],["BESTIA",9,2,0,1],["DISNEY",8,3,0,1],["FRANCES",3,2,0,1],["GALLINA",6,8,0,-1]]'></div><div class="words"></div>
+<button class="pz">Ver solución</button>
+<div class="num">0</div></div></div>
+
+<!-- CRUCIGRAMA -->
+<div class="leaf"><div class="pg">
+<p class="k">Pasatiempos · 2</p><h2>Crucigrama</h2><p class="sub">Escribe en las casillas. Sin tildes.</p>
+<div class="xw" data-puzzle="xw" data-rows="10" data-cols="11" data-words='[["ESGUINCE",4,0,"h","Lo que Hugo se hizo en el tobillo"],["DISNEY",7,0,"h","Las canciones que Leire adora"],["RISAS",1,6,"h","Lo que nunca falta con Leire"],["HELADO",3,0,"v","Lo que Hugo me debe (y no es una casa)"],["GOSSIP",4,2,"v","Cotilleo, en inglés"],["HINGE",3,4,"v","App donde nos conocimos"],["FRANCES",0,6,"v","Lo que es Hugo (sí, otra vez)"],["ANILLO",1,9,"v","Lo que Hugo me va a regalar al pedirme matrimonio"]]'></div>
+<div><button class="pz">Comprobar</button><button class="pz">Solución</button><button class="pz">Borrar</button></div>
+<div class="clues"></div>
+<div class="num">0</div></div></div>
+
+<!-- CARTAS -->
+<div class="leaf"><div class="pg">
+<p class="k">Cartas al director</p><h2>Buzón de Leire</h2>
+<blockquote><b>Querida Leire:</b> hace una semana que no me hablas y me muero por volver a verte. Creo que me has hechizado con tus encantos y ya no puedo dejar de pensar en ti...<span>Hugo, francés</span></blockquote>
+<blockquote><b>Querido Hugo:</b> #ICK.<span>Leire</span></blockquote>
+<blockquote><b>Querida Leire:</b> ¿Cuándo recibiré los besos que tanto ansío?<span>Hugo, el francés a la desesperada</span></blockquote>
+<blockquote><b>Querido Hugo:</b> Si me pagas lo que me debes me lo pienso...<span>Leire</span></blockquote>
+<blockquote><b>Querida redacción:</b> ¿Puedo recurrir la sentencia de la gran bronca?<span>Hugo, un francés angustiado</span></blockquote>
+<blockquote><b>Querido Hugo:</b> denegado. La culpa fue tuya.<span>La dirección</span></blockquote>
+<div class="ad"><p class="k">Publicidad</p><strong>Heladería «Me Debes Uno»</strong>Un helado de Hugo a Leire, pendiente desde hace tiempo. Entrega inmediata, pago diferido.</div>
+<div class="num">0</div></div></div>
+
+<!-- 11 CONTRAPORTADA -->
+<div class="leaf"><div class="pg cover" style="text-align:center;align-items:center;justify-content:center">
+<svg width="120" height="104" viewBox="0 0 120 104"><svg x="0" y="0" width="120" height="104" viewBox="0 0 120 104" style="overflow:visible"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 58C24 40 40 30 62 32C80 34 92 46 92 62C92 80 76 88 56 88C36 88 24 78 24 58Z"/><path d="M27 52C14 46 10 34 14 26M31 47C23 40 23 30 29 24"/><path d="M78 37C84 31 86 26 88 24"/><circle cx="97" cy="22" r="10"/><path d="M90 13q2-8 6-3q3-7 7 0"/><path d="M106 20l10 4-10 4z"/><path d="M103 32q1 9-4 7"/><path d="M44 58C52 50 68 52 72 62C66 71 50 71 44 58Z"/><path d="M52 88v11M52 99h-7M52 99h7M68 88v11M68 99h-7M68 99h7"/></g><circle cx="99" cy="20" r="2.4" fill="currentColor"/></svg></svg>
+<p class="small" style="color:#9cc5be">Editado con cariño por Leire Hernández para Hugo Morales.</p>
+</div></div>
+`
+});
