@@ -154,16 +154,18 @@ function buildSudoku(el){
  wire(el,[].slice.call(el.querySelectorAll('input')));
 }
 function buildPuzzle(el){var t=el.dataset.puzzle;if(t==='soup')buildSoup(el);else if(t==='xw')buildXW(el);else if(t==='sudoku')buildSudoku(el);}
-function show(t,html){
+function show(t,html,fromPop){
  cur=t.num;book.innerHTML=html;leaves=[].slice.call(book.querySelectorAll('.leaf'));n=leaves.length;i=0;
  leaves.forEach(function(l,k){var m=l.querySelector('.num');if(m)m.textContent=k+1;l.style.zIndex=n-k;});
  [].forEach.call(book.querySelectorAll('[data-puzzle]'),buildPuzzle);
  upd();reader.classList.add('on');shelfView.style.display='none';
- try{history.replaceState(null,'','#numero-'+t.num);}catch(e){}}
-function open(num){
+ if(!fromPop){try{history.pushState({reader:t.num},'','#numero-'+t.num);}catch(e){}}}
+function open(num,fromPop){
  var t=issues.filter(function(x){return String(x.num)===String(num);})[0];if(!t)return;
- Promise.resolve(t.html).then(function(html){show(t,html);}).catch(function(){alert('No se ha podido abrir esta revista.');});}
-function close(){reader.classList.remove('on');shelfView.style.display='';cur=null;try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}}
+ Promise.resolve(t.html).then(function(html){show(t,html,fromPop);}).catch(function(){alert('No se ha podido abrir esta revista.');});}
+function hide(){reader.classList.remove('on');shelfView.style.display='';cur=null;}
+function close(){if(history.state&&history.state.reader){history.back();}else{hide();try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}}}
+window.addEventListener('popstate',function(e){var s=e.state;if(s&&s.reader){if(String(cur)!==String(s.reader))open(s.reader,true);}else if(cur){hide();}});
 shelf.addEventListener('click',function(e){var b=e.target.closest('.mag[data-num]');if(b)open(b.dataset.num);});
 document.getElementById('close').onclick=close;
 prev.onclick=function(){go(-1);};next.onclick=function(){go(1);};
@@ -175,7 +177,7 @@ book.addEventListener('click',function(e){if(e.target.closest&&e.target.closest(
 window.addEventListener('resize',render);
 Promise.resolve(window.REVISTAS||[]).then(function(list){
  issues=list.sort(function(a,b){return a.date<b.date?-1:a.date>b.date?1:0;});render();
- var m=/^#numero-(\d+)$/.exec(location.hash);if(m)open(m[1]);
+ var m=/^#numero-(\d+)$/.exec(location.hash);if(m){try{history.replaceState(null,'',location.pathname+location.search);}catch(e){}open(m[1]);}
 }).catch(function(){shelf.innerHTML='<p class="lead">No se han podido cargar las revistas.</p>';});
 })();
 if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}
