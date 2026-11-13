@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1e2f36">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Revista Leire">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>La estantería de Hugo</title>
 <style>
 :root{--stage:#e4e8e2;--paper:#f7f4ed;--ink:#1e2a33;--mut:#6c7479;--acc:#2f6b66;--soft:#e8eeea;--line:#d5d9d2;--dark:#1e2f36;--plank:#cdbfa8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -81,7 +89,7 @@ input.sdc:focus{background:var(--soft)}.sdc.ok,.cx input.ok{background:#cfe6d3;c
 </head>
 <body>
 
-<div class="wrap" id="shelfView"><h1>La estantería de Leire</h1><p class="lead">Todos los números, de izquierda a derecha, del más antiguo al más reciente.</p><div id="shelf"></div></div>
+<div class="wrap" id="shelfView"><h1>La estantería de Hugo</h1><p class="lead">Todos los números, de izquierda a derecha, del más antiguo al más reciente.</p><div id="shelf"></div></div>
 <div class="reader" id="reader"><div class="bar"><button id="close">‹ Volver a la estantería</button></div>
 <div class="stage"><div class="book" id="book"></div></div>
 <div class="ctrl"><button id="prev" aria-label="Página anterior">‹</button><span id="count"></span><button id="next" aria-label="Página siguiente">›</button></div></div>
@@ -170,6 +178,7 @@ Promise.resolve(window.REVISTAS||[]).then(function(list){
  var m=/^#numero-(\d+)$/.exec(location.hash);if(m)open(m[1]);
 }).catch(function(){shelf.innerHTML='<p class="lead">No se han podido cargar las revistas.</p>';});
 })();
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});}
 </script>
 </body>
 </html>
